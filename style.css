@@ -1,0 +1,80 @@
+.navbar {
+	background-color: #1B1464;
+}
+
+.navbar-collapse ul li {
+	margin: 0 0 0 18px;
+}
+
+.jumbotron {
+	height: 100vh;
+	padding-top: 8em;
+	background-image: url(cover/fredrick-tendong--GMUHeFuJUs-unsplash.jpg);
+	color: white;
+	background-size: cover;
+}
+
+.jumbotron img {
+	width: 200px;
+}
+
+.jumbotron h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.lead {
+	margin-bottom: 43px;
+}
+
+#portfolio {
+	background-color: rgba(27, 20, 100, 0.1);
+}
+
+#portfolio .card-text {
+	height: 100px;
+	/*background-color: lightgrey;*/
+}
+
+#about {
+	padding-top: 5em;
+	color: #130f40;
+}
+
+#portfolio, #contact {
+	padding-top: 5em;
+	color: #130f40;
+}
+
+.btn-primary {
+	background-color: #1B1464;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #120d43;
+}
+
+.form-control:focus {
+	border-color: #130f40;
+	box-shadow: 0 0 0 0.2rem rgba(19, 15, 64, 0.25);
+}
+
+footer {
+	background-color: #1B1464;
+	color: white;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 385px) {
+	.jumbotron h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+}
